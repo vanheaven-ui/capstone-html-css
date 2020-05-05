@@ -1,0 +1,469 @@
+body {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 13px;
+  background-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  border: none;
+  box-shadow: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+a {
+  color: inherit;
+}
+
+label {
+  display: block;
+  text-transform: uppercase;
+  word-spacing: 0.0015rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+button {
+  border-radius: 0 !important;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+h2 {
+  font-size: inherit;
+}
+
+.header-wrapper {
+  background: #d45649;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.logo {
+  font-size: 20px;
+  position: relative;
+}
+
+.hor-offset {
+  position: absolute;
+  transform: rotate(90deg);
+  left: 5px;
+  font-size: 18px;
+  top: 3px;
+}
+
+.hdr-lg-font {
+  font-size: 18px;
+}
+
+.p-t-main {
+  padding-top: 150px;
+}
+
+/* -----------Index search area ------------- */
+
+.hero {
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 28px;
+  text-align: left;
+  width: 55%;
+  margin: 0 auto 10px;
+}
+
+.search-area {
+  width: 55%;
+  margin: 0 auto 30px;
+  padding: 40px 60px 30px 30px;
+  background-color: #cac3c1;
+  text-align: left;
+}
+
+form {
+  position: relative;
+}
+
+#search-box {
+  width: 87%;
+  line-height: 33px;
+  padding-left: 15px;
+  font-size: 14px;
+}
+
+.btn {
+  background-color: #d45649;
+  position: absolute;
+  top: 22px;
+  right: 0;
+  font-weight: 700;
+  color: #fff;
+  font-size: 13px;
+  padding: 7px 20px;
+}
+
+.toggle {
+  background-color: #cac3c1;
+  font-weight: 700;
+  padding: 12px 8px;
+  font-size: 12px;
+}
+
+/* -----------step------------- */
+.steps {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.steps-title {
+  font-size: 1.5rem;
+  color: #d45649;
+}
+
+.steps-wrapper {
+  margin-top: 5rem;
+}
+
+.card {
+  padding: 0 80px;
+  border: 0;
+  margin-bottom: 4rem;
+}
+
+/* -----------why block -------------- */
+.why-block {
+  font-size: small;
+}
+
+.certified {
+  background-color: #e27f66;
+}
+
+.save-time {
+  background-color: #98a5a6;
+}
+
+.convenience {
+  background-color: #519cd8;
+}
+
+.small-title {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.small-text {
+  margin-bottom: 30px;
+}
+
+.gen-btn {
+  background: #fff;
+  font-weight: 700;
+  padding: 6px;
+}
+
+.btn-1 {
+  color: #e27f66;
+}
+
+.btn-2 {
+  color: #98a5a6;
+}
+
+.block-wrapper {
+  padding: 80px 50px 40px 60px;
+}
+
+.img-cert {
+  width: 300px;
+  height: 300px;
+  background: #fff;
+}
+
+.img-time {
+  width: 300px;
+  height: 300px;
+  background: #fff;
+}
+
+.img-conv {
+  width: 300px;
+  height: 300px;
+  background: #fff;
+}
+
+.fa-map-marker-alt {
+  font-size: 1rem;
+}
+
+/* -----------Footer------------- */
+.page-footer {
+  background-color: #000;
+  color: #fff;
+}
+
+.footer-nav {
+  padding: 15px 50px 0;
+}
+
+.fa-map-marker {
+  font-size: 18px;
+  position: relative;
+  transform: scale(1.5, 2);
+  top: 8px;
+}
+
+.logo-wrapper {
+  background-color: #000;
+  color: #fff;
+  position: relative;
+  top: -18px;
+  left: -1.2px;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.hor-offset-f {
+  font-size: 10px;
+  transform: rotate(90deg);
+  position: absolute;
+  left: 6px;
+}
+
+.footer-nav-1 {
+  width: 100%;
+  justify-content: space-between;
+  border-top: 1px solid #464646;
+  border-bottom: 1px solid #464646;
+}
+
+.logo-container-f {
+  border: 1px solid #464646;
+  border-radius: 50%;
+  padding: 0 10px;
+  position: absolute;
+  left: 48%;
+  top: 0;
+  z-index: 10;
+  background-color: #000;
+}
+
+.connect-title {
+  font-size: 15px;
+}
+
+.p-x-50px {
+  padding: 0 50px;
+}
+
+.spec-font {
+  color: #d45649;
+  font-weight: 700;
+}
+
+.btn2 {
+  background-color: #464646;
+  font-size: 11px;
+  padding: 4px 18px;
+  position: relative;
+  left: -3px;
+  top: -1px;
+}
+
+.footer-input {
+  background: #000;
+  border: 1px solid #464646;
+  color: #fff;
+}
+
+.copyright {
+  background-color: #464646;
+  width: 100%;
+  padding: 12px 20px;
+  color: grey;
+}
+
+.social-item {
+  margin-right: 0.5rem;
+}
+
+/* -----------Search results---------------- */
+.filter-wrapper {
+  padding: 40px 40px 60px;
+  margin-top: 6em;
+  background-color: #eee;
+  text-align: center;
+}
+
+.filter-title {
+  font-size: 1.3rem;
+  color: #666;
+}
+
+.search-font {
+  font-size: 13px;
+  text-align: left;
+}
+
+#quantity {
+  border: 1px solid lightgray;
+  margin-right: 5px;
+}
+
+.form-style {
+  border: 1px solid lightgray;
+  margin-right: 5px;
+}
+
+.filter-btns {
+  position: relative;
+  top: 20px;
+  left: 0;
+  padding: 3px 12px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.search-btn {
+  background-color: #457eb4;
+}
+
+.filter-clr {
+  background-color: #e5ab5b;
+}
+
+/* ------------search results ----------------- */
+.search-results {
+  text-align: center;
+  padding: 40px 30px;
+}
+
+.results-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.hw-logo {
+  width: 64px;
+}
+
+.details-link {
+  padding: 3px 9px;
+  color: #d45649;
+  font-weight: 700;
+  background-color: #fff;
+  margin-top: 12px;
+  box-shadow: 0 7px #a11b0d;
+  transition: all 0.5s;
+}
+
+.details-link:hover {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+  color: #d45649;
+  text-decoration: none;
+}
+
+.result-card {
+  background-color: #d95f4c;
+  padding: 20px;
+  font-weight: 700;
+}
+
+.hw-name {
+  font-size: 1rem;
+  transition: color 0.5s;
+}
+
+.hw-name:hover {
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .max-width,
+  #quality {
+    width: 147px;
+  }
+}
+
+/* ------------------details------------------- */
+.hardware-store {
+  padding-top: 50px;
+  margin: 6rem auto 3rem;
+}
+
+.about-hw {
+  background-color: #eee;
+  margin: 0 auto;
+  padding: 20px;
+  width: 60%;
+  text-align: center;
+}
+
+.logo-lg {
+  width: 300px;
+}
+
+.store-title {
+  font-size: 2.8rem;
+  margin-left: 30px;
+  color: #d45649;
+  font-weight: 700;
+}
+
+.hw-contact {
+  margin-top: 2em;
+}
+
+.hw-link,
+.fa-link,
+.fa-envelope-square,
+.fa-phone-square-alt {
+  color: #d45649;
+  transition: color 0.5s;
+}
+
+.hw-link:hover {
+  color: #d45649;
+  font-weight: 700;
+}
+
+.strong-font {
+  color: #000;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 900px !important;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 900px !important;
+}
