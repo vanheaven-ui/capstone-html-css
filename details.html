@@ -47,79 +47,89 @@
         </nav>
       </header>
       <section class="hardware-store">
-          <h2 class="d-none">semantic tag</h2>
-        <div class="about-hw">
-          <div class="brand-hw d-flex align-items-center justify-content-between">
-            <img src="./images/hw-logo.png" alt=""class="logo-lg">
-            <h2 class="store-title">Hardware World Uganda</h2>
+        <h2 class="d-none">semantic tag</h2>
+      <div class="about-hw">
+        <div class="brand-hw d-flex align-items-center justify-content-between">
+          <img src="./images/hw-logo.png" alt=""class="logo-lg">
+          <h2 class="store-title">Hardware World Uganda</h2>
+          <p class="open">
+            <span>Working Hours:</span>
+            <span>Mon to Sat from 9:00AM to 7:00PM</span>
+          </p>
+        </div>
+        <div class="hw-contact">
+          <p class="mb-2">
+            <i class="fas fa-link" aria-hidden="true"></i>
+            <strong class="strong-font">Website:</strong>
+            <a href="#" class="hw-link">https://hardwareworldug.com</a>
+          </p>
+          <p class="mb-2">
+            <i class="fas fa-envelope-square" aria-hidden="true"></i>
+            <strong class="strong-font">Email:</strong>
+            <a href="#" class="hw-link">ebtwino718@yahoo.com</a>
+          </p>
+          <p>
+            <i class="fas fa-phone-square-alt" aria-hidden="true"></i>
+            <strong class="strong-font">Tel:</strong>
+            <a href="#" class="hw-link">+256 785 163 625</a>
+          </p>
+          <p>
+            <strong>
+              Hardware world is located approximately 0.9km from your location and
+              the price for your material is as below
+            </strong>
+          </p>
+        </div>
+      </div>
+      <section class="material">
+        <h2 class="d-none">semantic tag</h2>
+        <section class="quotation d-flex justify-content-around border-bottom pb-3">
+          <form class="price-quote" action="#" method="post">   
+          <h2 class="price-label text-uppercase">Hima Cement Price:</h2>
+          <h5 class="unit"><strong>Unit Price:</strong>Ugx 33,000</h5>
+            <fieldset class="fieldset-1 mb-2">
+              <label for="curr">Choose Currency:</label>
+              <select name="currency" id="curr">
+              <option value="select" class="select-curr d-block">Select Currency:</option>
+              <option value="local" class="local-curr">Ugx:</option>
+              <option value="usd" class="usd-curr">Usd:</option>
+            </select>
+            </fieldset>
+            <fieldset class="fieldset-2 mb-2">
+              <label for="qty">Enter Quantity:</label>
+              <input type="number" id="qty" min="1" value="1">
+            </fieldset>
+            <a href="#" class="get-btn">Get Quotation</a> 
+          </form>
+          <img src="./images/hima.jpg" alt="" class="hima-img">
+        </section>
+        <section class="related-stock d-flex justify-content-around"> 
+          <div class="price-info">
+            <h2 class="related-title text-uppercase">Related Stock</h2>
+            <h4 class="tororo">Tororo Portland Cement</h4>
+            <h5 class="price"><strong>Ugx:</strong>31,000</h5>
           </div>
-          <div class="hw-contact">
-            <p class="mb-2">
-              <i class="fas fa-link" aria-hidden="true"></i>
-              <strong class="strong-font">Website:</strong>
-              <a href="#" class="hw-link">https://hardwareworldug.com</a>
-            </p>
-            <p class="mb-2">
-              <i class="fas fa-envelope-square" aria-hidden="true"></i>
-              <strong class="strong-font">Email:</strong>
-              <a href="#" class="hw-link">ebtwino718@yahoo.com</a>
-            </p>
-            <p>
-              <i class="fas fa-phone-square-alt" aria-hidden="true"></i>
-              <strong class="strong-font">Tel:</strong>
-              <a href="#" class="hw-link">+256 785 163 625</a>
-            </p>
-            <p>
-              <strong>
-                Hardware world is located approximately 0.9km from your location and
-                the price for your material is as below
-              </strong>
-            </p>
-          </div>
-        </div>
-        <div class="material"></div>
-        <div class="quotation">
-          <h5 class="selected">Hima Cement</h5>
-          <span class="price">Unit Price:</span>
-          <span class="loc-curr">Local Currency: Ugx 33,000</span>
-          <span class="usd-equiv">USD Equiv: USD 9.3</span>
-        </div>
-        <div class="related-stock">
-          <h5 class="selected">Tororo Portland Cement</h5>
-          <span class="price">Unit Price:</span>
-          <span class="loc-curr">Local Currency: Ugx 31,000</span>
-          <span class="usd-equiv">USD Equiv: USD 8.5</span>
-        </div>
-        <div class="related-stock">
-          <h5 class="selected">kampala Cement</h5>
-          <span class="price">Unit Price:</span>
-          <span class="loc-curr">Local Currency: Ugx 32,000</span>
-          <span class="usd-equiv">USD Equiv: USD 8.6</span>
-        </div>
-        <div class="related-service">
-          <h5 class="pay-on-delevery">Pay on delivery</h5>
-          <span class="tat">TAT: 48 Hours</span>
-        </div>
-        <h4>
-          For directions to the store fulfillment Center, Follow the map below
-        </h4>
+          <img src="./images/tororo.jpg" alt="" class="tororo-img">
+        </section>
+      </section>
+      <section class="directions d-flex flex-column align-items-center">
+        <h2 class="direction-title">FULFILLMENT CENTER</h2>
+        <p><strong>For directions to the store fulfillment Center, Follow the map below</strong></p>
         <div class="mapouter">
-          <div class="gmap_canvas">
-            <iframe
-              width="600"
-              height="500"
-              id="gmap_canvas"
-              src="https://maps.google.com/maps?q=Hardware%20world%20ntinda&t=&z=13&ie=UTF8&iwloc=&output=embed"
-              frameborder="0"
-              scrolling="no"
-              marginheight="0"
-              marginwidth="0"
-            >
-            </iframe
-            ><a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+        <div class="gmap_canvas">
+          <iframe width="600" height="500" id="gmap_canvas" 
+            src="https://maps.google.com/maps?q=Hardware%20world%20ntinda&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+          >
+          </iframe>
           </div>
         </div>
       </section>
+     
+    </section>
       <footer class="page-footer">
         <section class="footer-nav">
           <h2 class="d-none">semantic tag</h2>
