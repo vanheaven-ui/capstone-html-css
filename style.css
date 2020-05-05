@@ -455,15 +455,41 @@ form {
 }
 
 .mapouter {
-  position: relative;
-  text-align: right;
-  height: 500px;
-  width: 900px !important;
+  max-width: 1170px;
+  min-width: 320px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .gmap_canvas {
   overflow: hidden;
   background: none !important;
-  height: 500px;
-  width: 900px !important;
+  width: 100%;
+}
+
+.material {
+  max-width: 1170px;
+  margin: 3rem auto;
+}
+
+.quotation {
+  margin-bottom: 2rem;
+}
+
+#curr,
+#qty {
+  width: 200px;
+}
+
+.get-btn {
+  padding: 8px 24px;
+  background-color: #d45649;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.hima-img,
+.tororo-img {
+  width: 150px;
+  margin-top: -2rem;
 }
