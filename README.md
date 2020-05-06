@@ -50,7 +50,7 @@ Here is a screenshot of the clone
 
 Contributions, issues and feature requests are welcome!
 
-Checkout the [issues page](https://github.com/vanheaven-ui/newsweek-clone/issues)
+Checkout the [issues page](https://github.com/vanheaven-ui/capstone-html-css/issues)
 
 ## Show your support
 
