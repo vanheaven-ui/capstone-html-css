@@ -2,6 +2,7 @@ body {
   font-family: "Didact Gothic", sans-serif;
   font-size: 13px;
   background-color: #fff;
+  overflow: hidden scroll;
 }
 
 * {
@@ -79,6 +80,8 @@ h2 {
 /* -----------Index search area ------------- */
 
 .hero {
+  max-width: 1318px;
+  margin: 0 auto;
   padding: 150px 0 60px;
   text-align: center;
   background: #000;
@@ -115,6 +118,10 @@ h2 {
 
 form {
   position: relative;
+}
+
+label[for="search-box"] {
+  color: #fff;
 }
 
 #search-box {
@@ -157,6 +164,11 @@ form {
   margin-top: 5rem;
 }
 
+.steps-icon {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
 .card {
   padding: 0 80px;
   border: 0;
@@ -166,6 +178,8 @@ form {
 /* -----------why block -------------- */
 .why-block {
   font-size: small;
+  max-width: 1318px;
+  margin: 0 auto;
 }
 
 .certified {
@@ -207,22 +221,15 @@ form {
   padding: 80px 50px 40px 60px;
 }
 
-.img-cert {
-  width: 300px;
-  height: 300px;
-  background: #fff;
+.img-block {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.img-time {
-  width: 300px;
-  height: 300px;
-  background: #fff;
-}
-
-.img-conv {
-  width: 300px;
-  height: 300px;
-  background: #fff;
+.block-img {
+  border-radius: 50%;
+  width: 50%;
 }
 
 .fa-map-marker-alt {
@@ -417,33 +424,190 @@ form {
   color: #fff;
 }
 
+.brand-hw {
+  position: relative;
+}
+
+.open {
+  position: absolute;
+  background-color: #d45649;
+  width: 100px;
+  border-radius: 5px;
+  color: #fff;
+  top: 0;
+  left: 0;
+  transform: rotate(-30deg);
+}
+
+@media (min-width: 1024px) {
+  .logo-lg {
+    width: 300px;
+  }
+
+  .store-title {
+    font-size: 2.8rem;
+  }
+
+  .about-hw {
+    width: 60%;
+  }
+
+  .block-img {
+    height: 90%;
+  }
+}
+
+@media (max-width: 1023px) {
+  .logo-lg {
+    width: 200px;
+  }
+
+  .about-hw {
+    width: 80%;
+  }
+
+  .block-img {
+    height: 80%;
+  }
+}
+
+@media (max-width: 991px) {
+  .block-img {
+    height: 70%;
+  }
+}
+
 @media (max-width: 767px) {
   .max-width,
   #quality {
     width: 147px;
+  }
+
+  .brk-point {
+    display: none;
+  }
+
+  .brk-font {
+    font-size: 1.1rem;
+  }
+
+  .search-area {
+    padding: 30px;
+  }
+
+  .block-img {
+    height: 60%;
+  }
+
+  .result-card {
+    margin-bottom: 16px;
+  }
+
+  .logo-lg {
+    width: 100px;
+  }
+
+  form[action="./results.html"] {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-title {
+    text-align: center;
+  }
+
+  #search-box {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  label[for="search-box"] {
+    margin-bottom: 8px;
+  }
+
+  .btn {
+    display: block !important;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .block-wrapper {
+    padding: 80px 5px 40px 60px;
+  }
+
+  .mapouter,
+  .small-screen {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .block-img {
+    height: 30%;
+  }
+
+  .img-block {
+    display: none;
+  }
+
+  .block-wrapper {
+    padding-right: 60px;
+  }
+}
+
+@media (min-width: 425px) {
+  .store-title {
+    font-size: 2rem;
+  }
+
+  .large-screen {
+    display: none;
+  }
+}
+
+@media (max-width: 424px) {
+  .header-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .brand,
+  .small-nav {
+    justify-content: center !important;
+  }
+
+  .store-title {
+    font-size: 1.5rem;
+  }
+
+  .logo-container-f {
+    left: 42%;
+    top: 30px;
+  }
+
+  .about-hw {
+    width: 100%;
   }
 }
 
 /* ------------------details------------------- */
 .hardware-store {
   padding-top: 50px;
-  margin: 6rem auto 3rem;
+  margin: 6rem auto 0;
 }
 
 .about-hw {
   background-color: #eee;
   margin: 0 auto;
   padding: 20px;
-  width: 60%;
   text-align: center;
 }
 
-.logo-lg {
-  width: 300px;
-}
-
 .store-title {
-  font-size: 2.8rem;
   margin-left: 30px;
   color: #d45649;
   font-weight: 700;
@@ -495,6 +659,7 @@ form {
 #curr,
 #qty {
   width: 200px;
+  border: 1px solid lightgray;
 }
 
 .get-btn {
