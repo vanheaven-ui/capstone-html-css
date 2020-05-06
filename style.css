@@ -9,7 +9,6 @@ body {
   box-sizing: border-box;
   border: none;
   box-shadow: none;
-  border-radius: 0;
 }
 
 *:focus {
@@ -149,6 +148,7 @@ label[for="search-box"] {
   color: #fff;
   font-size: 13px;
   padding: 7px 20px;
+  border-radius: 0;
 }
 
 .toggle {
