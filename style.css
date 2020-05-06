@@ -158,9 +158,11 @@ label[for="search-box"] {
 .toggle {
   background-color: #cac3c1;
   font-weight: 700;
-  padding: 12px 8px;
+  padding: 8px;
   font-size: 12px;
   border-radius: 0;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 /* -----------step------------- */
@@ -264,15 +266,16 @@ label[for="search-box"] {
   margin: 0 auto;
 }
 
-.footer-nav {
-  padding: 15px 50px 0;
-}
-
 .fa-map-marker {
   font-size: 18px;
   position: relative;
   transform: scale(1.5, 2);
   top: 8px;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .logo-wrapper {
@@ -366,11 +369,6 @@ label[for="search-box"] {
 .search-font {
   font-size: 13px;
   text-align: left;
-}
-
-#quantity {
-  border: 1px solid lightgray;
-  margin-right: 5px;
 }
 
 .form-style {
@@ -501,11 +499,19 @@ label[for="search-box"] {
   color: #000;
 }
 
+iframe {
+  margin: 0;
+  border: none;
+  width: 100%;
+  height: 500px;
+}
+
 .mapouter {
   max-width: 1170px;
-  min-width: 320px;
+  min-width: 200px;
   margin: 0 auto;
   text-align: center;
+  width: 100%;
 }
 
 .gmap_canvas {
@@ -534,6 +540,8 @@ label[for="search-box"] {
   background-color: #d45649;
   color: #fff;
   opacity: 0.8;
+  width: 200px;
+  display: block;
 }
 
 .hima-img,
@@ -603,10 +611,6 @@ label[for="search-box"] {
     left: 48%;
     top: 0;
   }
-
-  .large-screen {
-    display: none;
-  }
 }
 
 @media (max-width: 767px) {
@@ -675,11 +679,6 @@ label[for="search-box"] {
   .block-wrapper {
     padding: 80px 5px 40px 60px;
   }
-
-  .mapouter,
-  .small-screen {
-    display: none;
-  }
 }
 
 @media (max-width: 575px) {
@@ -690,11 +689,29 @@ label[for="search-box"] {
   .block-wrapper {
     padding-right: 60px;
   }
+
+  .logo-container-f {
+    left: 45%;
+    top: 40px;
+  }
+
+  .price-quote,
+  .price-info {
+    margin-bottom: 24px;
+  }
 }
 
 @media (min-width: 425px) {
   .store-title {
     font-size: 2rem;
+  }
+
+  .large-screen {
+    display: none;
+  }
+
+  .footer-nav {
+    padding: 20px 50px 0;
   }
 }
 
@@ -709,11 +726,31 @@ label[for="search-box"] {
     justify-content: center !important;
   }
 
+  .footer-nav {
+    padding: 15px 0;
+  }
+
   .store-title {
     font-size: 1.5rem;
   }
 
   .about-hw {
     width: 100%;
+  }
+
+  .small-screen {
+    display: none;
+  }
+
+  .search-results {
+    padding: 40px 0;
+  }
+
+  .copyright {
+    padding: 0;
+  }
+
+  .p-x-50px {
+    padding: 0;
   }
 }

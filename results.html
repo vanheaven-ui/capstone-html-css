@@ -66,7 +66,7 @@
         </h2>
         <form action="#" method="POST" class="d-flex flex-column flex-md-row justify-content-md-center align-items-center">
           <div class="fieldset">
-            <label for="location text-uppercase" class="search-font">Location:*</label>
+            <label for="location" class="search-font text-uppercase">Location:*</label>
             <input type="text" id="location" name="search-loc" placeholder="Enter your location" class="form-style max-width"/>
           </div>
           <div class="fieldset">
@@ -97,16 +97,16 @@
           </div>
           <div class="fieldset">
             <label for="quantity" class="search-font">QUANTITY</label>
-            <input type="number" class="pl-3 max-width" class="form-style" id="quantity" min="1" value="1"/>
+            <input type="number" class="pl-3 max-width form-style" id="quantity" min="1" value="1"/>
           </div>
           <fieldset class="btns">
             <a href="./details.html" class="filter-btns search-btn" role="button">Search</a>
-            <a href="#" class="filter-btns filter-clr">Clear filter</a>
+            <a href="#search-results" class="filter-btns filter-clr">Clear filter</a>
           </fieldset> 
         </form>
       </div>
     </section>
-    <section class="search-results">
+    <section class="search-results" id="search-results">
       <h2 class="results-title">
         Search Results Found these Hardware Store(s) near you
       </h2>
@@ -229,10 +229,10 @@
         </nav>
         <section class="connect-block mt-3">
           <h2 class="d-none">semantic tag</h2>
-          <div class="row">
-            <div class="col-6 col-md-4 text-center d-flex flex-column mb-2">
+          <div class="row no-margin">
+            <div class="col-12 col-sm-6 col-md-4 text-center d-flex flex-column mb-2">
               <h3 class="connect-title mb-3">SUBSCRIBE</h3>
-              <form action="" method="POST">
+              <form action="#" method="POST">
                 <input
                   type="text"
                   name="subscribe"
@@ -242,7 +242,7 @@
                 <a href="#" role="button" class="btn2">SUBSCRIBE</a>
               </form>
             </div>
-            <div class="col-6 col-md-4 d-flex flex-column text-center mb-2">
+            <div class="col-12 col-sm-6 col-md-4 d-flex flex-column text-center mb-2">
               <h3 class="connect-title mb-3">CONTACT</h3>
               <small>For your queries and concerns, please contact</small>
               <a href="#" class="spec-font">ebtwino718@yahoo.com</a>
