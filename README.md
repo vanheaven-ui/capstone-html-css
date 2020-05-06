@@ -4,7 +4,14 @@
 This projected was completed under Microverse remote software development curriculum. The project requirement was to build a locally hosted custom website of three pages. The design for guidance was provided [here](https://www.behance.net/gallery/25563385/PatashuleKE) that was authored by Mathew Njunguna and Sam Achola on behance. The landing page for this local website is a search page which links to a results page and ultimately links to the details page. The build in this repository simulates an online directory of hardware stores.
 
 Here is a screenshot of the clone 
-![screenshot](./images/)
+
+![Large size screenshot](./images/screenshot-lg.png)
+
+![Medium size screenshot](./images/screenshot-md.png)
+
+![Small size screenshot](./images/screenshot-sm.png)
+
+![X-small size screenshot](./images/screenshot-xs.png)
 
 ## Built With
 
