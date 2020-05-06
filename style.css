@@ -9,6 +9,7 @@ body {
   box-sizing: border-box;
   border: none;
   box-shadow: none;
+  border-radius: 0 !important;
 }
 
 *:focus {
