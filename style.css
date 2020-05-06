@@ -33,10 +33,6 @@ label {
   font-size: 15px;
 }
 
-button {
-  border-radius: 0 !important;
-}
-
 h2,
 h3,
 h4,
@@ -156,6 +152,7 @@ label[for="search-box"] {
   font-weight: 700;
   padding: 12px 8px;
   font-size: 12px;
+  border-radius: 0;
 }
 
 /* -----------step------------- */
@@ -347,7 +344,6 @@ label[for="search-box"] {
 
 /* -----------Search results---------------- */
 .filter-wrapper {
-  padding: 40px 40px 60px;
   background-color: #eee;
   text-align: center;
   max-width: 1320px;
@@ -378,7 +374,6 @@ label[for="search-box"] {
   position: relative;
   top: 10px;
   left: 0;
-  padding: 3px 12px;
   color: #fff;
   font-weight: 700;
 }
@@ -457,6 +452,88 @@ label[for="search-box"] {
   transform: rotate(-30deg);
 }
 
+/* ------------------details------------------- */
+.hardware-store {
+  padding-top: 50px;
+  max-width: 1320px;
+  margin: 6rem auto 0;
+}
+
+.about-hw {
+  background-color: #eee;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.store-title {
+  margin-left: 30px;
+  color: #d45649;
+  font-weight: 700;
+}
+
+.hw-contact {
+  margin-top: 2em;
+}
+
+.hw-link,
+.fa-link,
+.fa-envelope-square,
+.fa-phone-square-alt {
+  color: #d45649;
+  transition: color 0.5s;
+}
+
+.hw-link:hover {
+  color: #d45649;
+  font-weight: 700;
+}
+
+.strong-font {
+  color: #000;
+}
+
+.mapouter {
+  max-width: 1170px;
+  min-width: 320px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+}
+
+.material {
+  max-width: 1170px;
+  margin: 3rem auto;
+}
+
+.quotation {
+  margin-bottom: 2rem;
+}
+
+#curr,
+#qty {
+  width: 200px;
+  border: 1px solid lightgray;
+}
+
+.get-btn {
+  padding: 8px 24px;
+  background-color: #d45649;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.hima-img,
+.tororo-img {
+  width: 150px;
+  margin-top: -2rem;
+}
+
 @media (min-width: 1024px) {
   .logo-lg {
     width: 300px;
@@ -489,9 +566,27 @@ label[for="search-box"] {
   }
 }
 
+@media (min-width: 992px) {
+  .filter-wrapper {
+    padding: 40px 40px 60px;
+  }
+
+  .filter-btns {
+    padding: 3px 12px;
+  }
+}
+
 @media (max-width: 991px) {
   .block-img {
     height: 70%;
+  }
+
+  .filter-btns {
+    padding: 3px 6px;
+  }
+
+  .filter-wrapper {
+    padding: 40px 1px 60px;
   }
 }
 
@@ -613,86 +708,4 @@ label[for="search-box"] {
   .about-hw {
     width: 100%;
   }
-}
-
-/* ------------------details------------------- */
-.hardware-store {
-  padding-top: 50px;
-  max-width: 1320px;
-  margin: 6rem auto 0;
-}
-
-.about-hw {
-  background-color: #eee;
-  margin: 0 auto;
-  padding: 20px;
-  text-align: center;
-}
-
-.store-title {
-  margin-left: 30px;
-  color: #d45649;
-  font-weight: 700;
-}
-
-.hw-contact {
-  margin-top: 2em;
-}
-
-.hw-link,
-.fa-link,
-.fa-envelope-square,
-.fa-phone-square-alt {
-  color: #d45649;
-  transition: color 0.5s;
-}
-
-.hw-link:hover {
-  color: #d45649;
-  font-weight: 700;
-}
-
-.strong-font {
-  color: #000;
-}
-
-.mapouter {
-  max-width: 1170px;
-  min-width: 320px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.gmap_canvas {
-  overflow: hidden;
-  background: none !important;
-  width: 100%;
-}
-
-.material {
-  max-width: 1170px;
-  margin: 3rem auto;
-}
-
-.quotation {
-  margin-bottom: 2rem;
-}
-
-#curr,
-#qty {
-  width: 200px;
-  border: 1px solid lightgray;
-}
-
-.get-btn {
-  padding: 8px 24px;
-  background-color: #d45649;
-  color: #fff;
-  opacity: 0.8;
-}
-
-.hima-img,
-.tororo-img {
-  width: 150px;
-  margin-top: -2rem;
 }
