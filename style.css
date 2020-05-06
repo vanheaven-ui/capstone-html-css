@@ -603,6 +603,10 @@ label[for="search-box"] {
     left: 48%;
     top: 0;
   }
+
+  .large-screen {
+    display: none;
+  }
 }
 
 @media (max-width: 767px) {
@@ -691,10 +695,6 @@ label[for="search-box"] {
 @media (min-width: 425px) {
   .store-title {
     font-size: 2rem;
-  }
-
-  .large-screen {
-    display: none;
   }
 }
 
