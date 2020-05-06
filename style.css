@@ -17,6 +17,11 @@ body {
 
 a {
   color: inherit;
+  transition: color 0.5s;
+}
+
+* > a:hover {
+  color: #333;
 }
 
 label {
@@ -49,11 +54,14 @@ h2 {
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
   z-index: 100;
   color: #fff;
   display: flex;
   justify-content: space-between;
   font-weight: 700;
+  max-width: 1320px;
+  margin: 0 auto;
 }
 
 .logo {
@@ -80,7 +88,7 @@ h2 {
 /* -----------Index search area ------------- */
 
 .hero {
-  max-width: 1318px;
+  max-width: 1320px;
   margin: 0 auto;
   padding: 150px 0 60px;
   text-align: center;
@@ -178,8 +186,13 @@ label[for="search-box"] {
 /* -----------why block -------------- */
 .why-block {
   font-size: small;
-  max-width: 1318px;
+  max-width: 1320px;
   margin: 0 auto;
+}
+
+.margin-zero-x {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .certified {
@@ -225,6 +238,7 @@ label[for="search-box"] {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  padding-right: 60px;
 }
 
 .block-img {
@@ -240,6 +254,8 @@ label[for="search-box"] {
 .page-footer {
   background-color: #000;
   color: #fff;
+  max-width: 1320px;
+  margin: 0 auto;
 }
 
 .footer-nav {
@@ -285,8 +301,6 @@ label[for="search-box"] {
   border-radius: 50%;
   padding: 0 10px;
   position: absolute;
-  left: 48%;
-  top: 0;
   z-index: 10;
   background-color: #000;
 }
@@ -333,9 +347,10 @@ label[for="search-box"] {
 /* -----------Search results---------------- */
 .filter-wrapper {
   padding: 40px 40px 60px;
-  margin-top: 6em;
   background-color: #eee;
   text-align: center;
+  max-width: 1320px;
+  margin: 6em auto 0;
 }
 
 .filter-title {
@@ -379,6 +394,8 @@ label[for="search-box"] {
 .search-results {
   text-align: center;
   padding: 40px 30px;
+  max-width: 1320px;
+  margin: 0 auto;
 }
 
 .results-title {
@@ -477,6 +494,13 @@ label[for="search-box"] {
   }
 }
 
+@media (min-width: 768px) {
+  .logo-container-f {
+    left: 48%;
+    top: 0;
+  }
+}
+
 @media (max-width: 767px) {
   .max-width,
   #quality {
@@ -496,7 +520,7 @@ label[for="search-box"] {
   }
 
   .block-img {
-    height: 60%;
+    height: 40%;
   }
 
   .result-card {
@@ -505,6 +529,11 @@ label[for="search-box"] {
 
   .logo-lg {
     width: 100px;
+  }
+
+  .logo-container-f {
+    left: 45%;
+    top: 70px;
   }
 
   form[action="./results.html"] {
@@ -546,10 +575,6 @@ label[for="search-box"] {
 }
 
 @media (max-width: 575px) {
-  .block-img {
-    height: 30%;
-  }
-
   .img-block {
     display: none;
   }
@@ -584,11 +609,6 @@ label[for="search-box"] {
     font-size: 1.5rem;
   }
 
-  .logo-container-f {
-    left: 42%;
-    top: 30px;
-  }
-
   .about-hw {
     width: 100%;
   }
@@ -597,6 +617,7 @@ label[for="search-box"] {
 /* ------------------details------------------- */
 .hardware-store {
   padding-top: 50px;
+  max-width: 1320px;
   margin: 6rem auto 0;
 }
 
