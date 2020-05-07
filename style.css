@@ -61,7 +61,6 @@ h2 {
 }
 
 .logo {
-  font-size: 20px;
   position: relative;
 }
 
@@ -69,12 +68,12 @@ h2 {
   position: absolute;
   transform: rotate(90deg);
   left: 5px;
-  font-size: 18px;
-  top: 3px;
+  top: 0;
 }
 
-.hdr-lg-font {
-  font-size: 18px;
+.hdr-lg-font,
+.logo {
+  font-size: 24px;
 }
 
 .p-t-main {
