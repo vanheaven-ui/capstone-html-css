@@ -71,16 +71,13 @@ h2 {
   top: 0;
 }
 
-.hdr-lg-font,
-.logo {
+.hdr-lg-font {
   font-size: 24px;
 }
 
 .p-t-main {
   padding-top: 0;
 }
-
-/* -----------Index search area ------------- */
 
 .hero {
   max-width: 1320px;
@@ -164,7 +161,6 @@ label[for="search-box"] {
   margin: 0 auto;
 }
 
-/* -----------step------------- */
 .steps {
   margin-top: 5rem;
   text-align: center;
@@ -185,12 +181,10 @@ label[for="search-box"] {
 }
 
 .card {
-  padding: 0 80px;
   border: 0;
   margin-bottom: 4rem;
 }
 
-/* -----------why block -------------- */
 .why-block {
   font-size: small;
   max-width: 1320px;
@@ -257,7 +251,6 @@ label[for="search-box"] {
   font-size: 1rem;
 }
 
-/* -----------Footer------------- */
 .page-footer {
   background-color: #000;
   color: #fff;
@@ -352,7 +345,6 @@ label[for="search-box"] {
   margin-right: 0.5rem;
 }
 
-/* -----------Search results---------------- */
 .filter-wrapper {
   background-color: #eee;
   text-align: center;
@@ -391,7 +383,6 @@ label[for="search-box"] {
   background-color: #e5ab5b;
 }
 
-/* ------------search results ----------------- */
 .search-results {
   text-align: center;
   padding: 40px 30px;
@@ -457,7 +448,6 @@ label[for="search-box"] {
   transform: rotate(-30deg);
 }
 
-/* ------------------details------------------- */
 .hardware-store {
   padding-top: 50px;
   max-width: 1320px;
@@ -481,10 +471,7 @@ label[for="search-box"] {
   margin-top: 2em;
 }
 
-.hw-link,
-.fa-link,
-.fa-envelope-square,
-.fa-phone-square-alt {
+.red-font {
   color: #d45649;
   transition: color 0.5s;
 }
@@ -528,8 +515,7 @@ iframe {
   margin-bottom: 2rem;
 }
 
-#curr,
-#qty {
+.form-width {
   width: 200px;
   border: 1px solid lightgray;
 }
@@ -543,8 +529,7 @@ iframe {
   display: block;
 }
 
-.hima-img,
-.tororo-img {
+.detail-img {
   width: 150px;
   margin-top: -2rem;
 }
@@ -613,8 +598,7 @@ iframe {
 }
 
 @media (max-width: 767px) {
-  .max-width,
-  #quality {
+  .max-width {
     width: 147px;
   }
 
@@ -694,8 +678,7 @@ iframe {
     top: 40px;
   }
 
-  .price-quote,
-  .price-info {
+  .margin-b {
     margin-bottom: 24px;
   }
 }
@@ -712,6 +695,10 @@ iframe {
   .footer-nav {
     padding: 20px 50px 0;
   }
+
+  .card {
+    padding: 0 80px;
+  }
 }
 
 @media (max-width: 424px) {
@@ -720,8 +707,11 @@ iframe {
     align-items: center;
   }
 
-  .brand,
-  .small-nav {
+  .card {
+    padding: 0;
+  }
+
+  .j-c {
     justify-content: center !important;
   }
 
