@@ -20,7 +20,7 @@ Here is a screenshot of the clone
 
 ## Live Demo
 
-[Live Demo Link](https://focused-fermat-71c78d.netlify.app/)
+[Live Demo Link](https://lucid-fermi-2d91d4.netlify.app/)
 
 ### Prerequisites
 
