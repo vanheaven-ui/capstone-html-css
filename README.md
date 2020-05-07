@@ -20,7 +20,7 @@ Here is a screenshot of the clone
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/vanheaven-ui/capstone-html-css/build-branch/index.html)
+[Live Demo Link](https://focused-fermat-71c78d.netlify.app/)
 
 ### Prerequisites
 
