@@ -5,6 +5,8 @@ This projected was completed under Microverse remote software development curric
 
 Here is a screenshot of the clone 
 
+![Large size screenshot](./images/screenshot-xl.png)
+
 ![Large size screenshot](./images/screenshot-lg.png)
 
 ![Medium size screenshot](./images/screenshot-md.png)
