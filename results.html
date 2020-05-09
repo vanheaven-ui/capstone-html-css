@@ -16,7 +16,10 @@
       href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Questrial&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" /> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   </head>
   <body>
     <header class="header-wrapper w-100">
@@ -97,11 +100,11 @@
           </div>
           <div class="fieldset">
             <label for="quantity" class="search-font">QUANTITY</label>
-            <input type="number" class="pl-3 max-width form-style" id="quantity" min="1" value="1"/>
+            <input type="number" id="quantity" min="1" value="1" class="form-style pl-3 max-width">
           </div>
           <fieldset class="btns">
-            <a href="./details.html" class="filter-btns search-btn" role="button">Search</a>
-            <a href="#search-results" class="filter-btns filter-clr">Clear filter</a>
+            <a href="#search-results" class="filter-btns search-btn" role="button">Search</a>
+            <a href="#" class="filter-btns filter-clr">Clear filter</a>
           </fieldset> 
         </form>
       </div>
@@ -110,81 +113,212 @@
       <h2 class="results-title">
         Search Results Found these Hardware Store(s) near you
       </h2>
-      <div class="row results-wrapper mb-3">
-        <div class="col-md-4">
-          <div class="result-card d-flex justify-content-around">
-            <div class="store-returned d-flex flex-column justify-content-between">
-              <a href="./details.html" class="hw-name">Hardware World Uganda</a>
-              <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
-            </div>
-            <div class="logo-contact">
-              <img src="./images/hw-logo.png" alt="" class="hw-logo">
-              <a href="./details.html" class="details-link d-block">More info...</a>
-            </div>
-          </div>        
+      <div class="results-wrapper large">
+        <div class="result-card">
+          <div class="store-returned">
+            <a href="./details.html" class="hw-name">Hardware World Uganda</a> 
+          </div>
+          <div class="logo-contact">
+            <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
+            <a href="./details.html" class="details-link d-block">More info...</a>
+          </div>
         </div>
-        <div class="col-md-4">
-          <div class="result-card d-flex justify-content-around">
-            <div class="store-returned d-flex flex-column justify-content-between">
-              <a href="./details.html" class="hw-name">Hardware World Uganda</a>
-              <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
-            </div>
-            <div class="logo-contact">
-              <img src="./images/hw-logo.png" alt="" class="hw-logo">
-              <a href="./details.html" class="details-link d-block">More info...</a>
-            </div>
-          </div>        
-        </div>
-        <div class="col-md-4">
-          <div class="result-card d-flex justify-content-around">
-            <div class="store-returned d-flex flex-column justify-content-between">
-              <a href="./details.html" class="hw-name">Hardware World Uganda</a>
-              <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
-            </div>
-            <div class="logo-contact">
-              <img src="./images/hw-logo.png" alt="" class="hw-logo">
-              <a href="./details.html" class="details-link d-block">More info...</a>
-            </div>
-          </div>        
-        </div>
-      </div>
-      <div class="row results-wrapper mb-3">
-        <div class="col-md-4">
-          <div class="result-card d-flex justify-content-around">
-            <div class="store-returned d-flex flex-column justify-content-between">
-              <a href="./details.html" class="hw-name">Hardware World Uganda</a>
-              <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
-            </div>
-            <div class="logo-contact">
-              <img src="./images/hw-logo.png" alt="" class="hw-logo">
-              <a href="./details.html" class="details-link d-block">More info...</a>
-            </div>
-          </div>        
-        </div>
-        <div class="col-md-4">
-          <div class="result-card d-flex justify-content-around">
-            <div class="store-returned d-flex flex-column justify-content-between">
-              <a href="./details.html" class="hw-name">Hardware World Uganda</a>
-              <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
-            </div>
-            <div class="logo-contact">
-              <img src="./images/hw-logo.png" alt="" class="hw-logo">
-              <a href="./details.html" class="details-link d-block">More info...</a>
-            </div>
-          </div>        
-        </div>
-        <div class="col-md-4">
-          <div class="result-card d-flex justify-content-around">
-            <div class="store-returned d-flex flex-column justify-content-between">
-              <a href="./details.html" class="hw-name">Hardware World Uganda</a>
-              <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
-            </div>
-            <div class="logo-contact">
-              <img src="./images/hw-logo.png" alt="" class="hw-logo">
-              <a href="./details.html" class="details-link d-block">More info...</a>
-            </div>
+        <div class="result-card">
+          <div class="store-returned">
+            <a href="./details.html" class="hw-name">Hardware World Uganda</a> 
+          </div>
+          <div class="logo-contact">
+            <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
+            <a href="./details.html" class="details-link d-block">More info...</a>
           </div>
         </div> 
+        <div class="result-card">
+          <div class="store-returned">
+            <a href="./details.html" class="hw-name">Hardware World Uganda</a> 
+          </div>
+          <div class="logo-contact">
+            <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
+            <a href="./details.html" class="details-link d-block">More info...</a>
+          </div>
+        </div> 
+      </div>
+      <div class="results-wrapper large">
+        <div class="result-card">
+          <div class="store-returned">
+            <a href="./details.html" class="hw-name">Hardware World Uganda</a> 
+          </div>
+          <div class="logo-contact">
+            <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
+            <a href="./details.html" class="details-link d-block">More info...</a>
+          </div>
+        </div>   
+        <div class="result-card">
+          <div class="store-returned">
+            <a href="./details.html" class="hw-name">Hardware World Uganda</a> 
+          </div>
+          <div class="logo-contact">
+            <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
+            <a href="./details.html" class="details-link d-block">More info...</a>
+          </div>
+        </div>   
+        <div class="result-card">
+          <div class="store-returned">
+            <a href="./details.html" class="hw-name">Hardware World Uganda</a> 
+          </div>
+          <div class="logo-contact">
+            <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
+            <a href="./details.html" class="details-link d-block">More info...</a>
+          </div>
+        </div>        
+      </div>
+      <div class="results-wrapper large">
+        <div class="result-card">
+          <div class="store-returned">
+            <a href="./details.html" class="hw-name">Hardware World Uganda</a> 
+          </div>
+          <div class="logo-contact">
+            <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
+            <a href="./details.html" class="details-link d-block">More info...</a>
+          </div>
+        </div>   
+        <div class="result-card">
+          <div class="store-returned">
+            <a href="./details.html" class="hw-name">Hardware World Uganda</a> 
+          </div>
+          <div class="logo-contact">
+            <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
+            <a href="./details.html" class="details-link d-block">More info...</a>
+          </div>
+        </div>   
+        <div class="result-card">
+          <div class="store-returned">
+            <a href="./details.html" class="hw-name">Hardware World Uganda</a> 
+          </div>
+          <div class="logo-contact">
+            <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
+            <a href="./details.html" class="details-link d-block">More info...</a>
+          </div>
+        </div>        
+      </div>
+      <div class="results-wrapper-m medium">
+        <div class="result-card">
+          <div class="store-returned">
+            <a href="./details.html" class="hw-name">Hardware World Uganda</a> 
+          </div>
+          <div class="logo-contact">
+            <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
+            <a href="./details.html" class="details-link d-block">More info...</a>
+          </div>
+        </div>   
+        <div class="result-card">
+          <div class="store-returned">
+            <a href="./details.html" class="hw-name">Hardware World Uganda</a> 
+          </div>
+          <div class="logo-contact">
+            <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
+            <a href="./details.html" class="details-link d-block">More info...</a>
+          </div>
+        </div>   
+      </div>
+      <div class="results-wrapper-m medium">
+        <div class="result-card">
+          <div class="store-returned">
+            <a href="./details.html" class="hw-name">Hardware World Uganda</a> 
+          </div>
+          <div class="logo-contact">
+            <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
+            <a href="./details.html" class="details-link d-block">More info...</a>
+          </div>
+        </div>   
+        <div class="result-card">
+          <div class="store-returned">
+            <a href="./details.html" class="hw-name">Hardware World Uganda</a> 
+          </div>
+          <div class="logo-contact">
+            <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
+            <a href="./details.html" class="details-link d-block">More info...</a>
+          </div>
+        </div>   
+      </div>
+      <div class="results-wrapper-m medium">
+        <div class="result-card">
+          <div class="store-returned">
+            <a href="./details.html" class="hw-name">Hardware World Uganda</a> 
+          </div>
+          <div class="logo-contact">
+            <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
+            <a href="./details.html" class="details-link d-block">More info...</a>
+          </div>
+        </div>   
+        <div class="result-card">
+          <div class="store-returned">
+            <a href="./details.html" class="hw-name">Hardware World Uganda</a> 
+          </div>
+          <div class="logo-contact">
+            <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
+            <a href="./details.html" class="details-link d-block">More info...</a>
+          </div>
+        </div>   
+      </div>
+      <div class="results-wrapper-m medium">
+        <div class="result-card">
+          <div class="store-returned">
+            <a href="./details.html" class="hw-name">Hardware World Uganda</a> 
+          </div>
+          <div class="logo-contact">
+            <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
+            <a href="./details.html" class="details-link d-block">More info...</a>
+          </div>
+        </div>   
+        <div class="result-card">
+          <div class="store-returned">
+            <a href="./details.html" class="hw-name">Hardware World Uganda</a> 
+          </div>
+          <div class="logo-contact">
+            <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
+            <a href="./details.html" class="details-link d-block">More info...</a>
+          </div>
+        </div>   
+      </div>
+      <div class="results-wrapper-m medium">
+        <div class="result-card">
+          <div class="store-returned">
+            <a href="./details.html" class="hw-name">Hardware World Uganda</a> 
+          </div>
+          <div class="logo-contact">
+            <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
+            <a href="./details.html" class="details-link d-block">More info...</a>
+          </div>
+        </div>   
+        <div class="result-card">
+          <div class="store-returned">
+            <a href="./details.html" class="hw-name">Hardware World Uganda</a> 
+          </div>
+          <div class="logo-contact">
+            <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
+            <a href="./details.html" class="details-link d-block">More info...</a>
+          </div>
+        </div>   
+      </div>
+      <div class="results-wrapper-m medium">
+        <div class="result-card">
+          <div class="store-returned">
+            <a href="./details.html" class="hw-name">Hardware World Uganda</a> 
+          </div>
+          <div class="logo-contact">
+            <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
+            <a href="./details.html" class="details-link d-block">More info...</a>
+          </div>
+        </div>   
+        <div class="result-card">
+          <div class="store-returned">
+            <a href="./details.html" class="hw-name">Hardware World Uganda</a> 
+          </div>
+          <div class="logo-contact">
+            <small><i class="fas fa-map-marker-alt mr-2"></i>Located approx: 0.9km Away</small>
+            <a href="./details.html" class="details-link d-block">More info...</a>
+          </div>
+        </div>   
       </div>
     </section>
     <footer class="page-footer">
@@ -229,10 +363,10 @@
         </nav>
         <section class="connect-block mt-3">
           <h2 class="d-none">semantic tag</h2>
-          <div class="row no-margin">
-            <div class="col-12 col-sm-6 col-md-4 text-center d-flex flex-column mb-2">
-              <h3 class="connect-title mb-3">SUBSCRIBE</h3>
-              <form action="#" method="POST">
+          <div class="connect-block-wrapper no-margin">
+            <div class="connect-block-item">
+              <h3 class="connect-title">SUBSCRIBE</h3>
+              <form action="#" method="POST" id="footer-form">
                 <input
                   type="text"
                   name="subscribe"
@@ -242,13 +376,13 @@
                 <a href="#" role="button" class="btn2">SUBSCRIBE</a>
               </form>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 d-flex flex-column text-center mb-2">
-              <h3 class="connect-title mb-3">CONTACT</h3>
+            <div class="connect-block-item contact-padding">
+              <h3 class="connect-title">CONTACT</h3>
               <small>For your queries and concerns, please contact</small>
               <a href="#" class="spec-font">ebtwino718@yahoo.com</a>
             </div>
-            <div class="col-12 col-md-4 d-flex flex-column text-center mb-2 p-x-50px">
-              <h3 class="connect-title mb-3">ABOUT</h3>
+            <div class="connect-block-item p-x-50px">
+              <h3 class="connect-title">ABOUT</h3>
               <p>
                 Hardware Hub is an online directory where you will easily find
                 the nearest hardware stores that will fulfill your demand for
