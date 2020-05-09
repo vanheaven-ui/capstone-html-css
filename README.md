@@ -29,8 +29,8 @@ Here is a screenshot of the clone
 
 ### Setup
 
--Fork the repo to your remote repository.
--Clone or download the repository to your local machine.
+- Fork the repo to your remote repository.
+- Clone or download the repository to your local machine.
 
 ### Install
 
