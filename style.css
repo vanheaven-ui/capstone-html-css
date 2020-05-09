@@ -285,7 +285,8 @@ label[for="search-box"] {
   font-size: 10px;
   transform: rotate(90deg);
   position: absolute;
-  left: 6px;
+  left: 4px;
+  color: #000;
 }
 
 .footer-nav-1 {
@@ -293,6 +294,7 @@ label[for="search-box"] {
   justify-content: space-between;
   border-top: 1px solid #464646;
   border-bottom: 1px solid #464646;
+  position: relative;
 }
 
 .logo-container-f {
@@ -700,7 +702,7 @@ iframe {
 
   .logo-container-f {
     left: 48%;
-    top: 10px;
+    top: -8px;
   }
 
   .medium {
@@ -816,11 +818,6 @@ iframe {
     align-self: center;
   }
 
-  .logo-container-f {
-    left: 45%;
-    top: 70px;
-  }
-
   form[action="./results.html"] {
     display: flex;
     flex-direction: column;
@@ -866,10 +863,17 @@ iframe {
   }
 }
 
-@media (min-width: 655px) and (max-width: 960px) {
+@media (min-width: 671px) and (max-width: 960px) {
   .logo-container-f {
-    left: 45%;
-    top: 37px;
+    left: 46%;
+    top: 9px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 670px) {
+  .logo-container-f {
+    left: 46%;
+    top: 30px;
   }
 }
 
@@ -905,7 +909,7 @@ iframe {
 
   .logo-container-f {
     left: 44%;
-    top: 70px;
+    top: 30px;
   }
 
   .margin-b {
@@ -929,6 +933,13 @@ iframe {
   .standard-wrapper {
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media (max-width: 426px) {
+  .logo-container-f {
+    left: 44%;
+    top: 50px;
   }
 }
 
