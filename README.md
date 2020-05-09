@@ -5,8 +5,6 @@ This projected was completed under Microverse remote software development curric
 
 Here is a screenshot of the clone 
 
-![Large size screenshot](./images/screenshot-xl.png)
-
 ![Large size screenshot](./images/screenshot-lg.png)
 
 ![Medium size screenshot](./images/screenshot-md.png)
@@ -22,7 +20,7 @@ Here is a screenshot of the clone
 
 ## Live Demo
 
-[Live Demo Link](https://flamboyant-yalow-75e92d.netlify.app/)
+[Live Demo Link](https://sleepy-goldwasser-e55e84.netlify.app/index.html)
 
 ### Prerequisites
 
