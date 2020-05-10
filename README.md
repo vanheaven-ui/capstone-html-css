@@ -20,7 +20,7 @@ Here is a screenshot of the clone
 
 ## Live Demo
 
-[Live Demo Link](https://sleepy-goldwasser-e55e84.netlify.app/index.html)
+[Live Demo Link](https://hardcore-meninsky-f3692a.netlify.app/index.html)
 
 ### Prerequisites
 
