@@ -189,11 +189,6 @@ label[for="search-box"] {
   margin: 0 auto;
 }
 
-.margin-zero-x {
-  margin-left: 0;
-  margin-right: 0;
-}
-
 .certified {
   background-color: #e27f66;
 }
