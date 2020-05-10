@@ -941,6 +941,10 @@ iframe {
     left: 44%;
     top: 50px;
   }
+
+  .j-c-s {
+    justify-content: center;
+  }
 }
 
 @media (min-width: 425px) {
@@ -952,8 +956,12 @@ iframe {
     display: none;
   }
 
-  .j-c-s {
+  .brand {
     justify-content: flex-start;
+  }
+
+  .small-nav {
+    justify-content: flex-end;
   }
 
   .footer-nav {
