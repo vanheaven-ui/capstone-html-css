@@ -649,12 +649,6 @@ iframe {
   }
 }
 
-@media (max-width: 1024px) {
-  .filter-wrapper {
-    width: 95%;
-  }
-}
-
 @media (min-width: 1024px) {
   .logo-lg {
     width: 300px;
@@ -680,6 +674,10 @@ iframe {
 
   .about-hw {
     width: 80%;
+  }
+
+  .filter-wrapper {
+    width: 95%;
   }
 
   .block-img {
