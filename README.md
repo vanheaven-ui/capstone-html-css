@@ -1,2 +1,62 @@
 # capstone-html-css
-Custom website built in HTML and CSS
+## Hardware Hub - Custom website built in HTML and CSS
+
+This project was completed under Microverse remote software development curriculum. The project requirement was to build a locally hosted custom website of three pages. The design for guidance was provided [here](https://www.behance.net/gallery/25563385/PatashuleKE) that was authored by Mathew Njunguna and Sam Achola on behance. The landing page for this local website is a search page which links to a results page and ultimately links to the details page. The build in this repository simulates an online directory of hardware stores.
+
+Here is a screenshot of the clone 
+
+![Large size screenshot](./images/screenshot-lg.png)
+
+![Medium size screenshot](./images/screenshot-md.png)
+
+![Small size screenshot](./images/screenshot-sm.png)
+
+![X-small size screenshot](./images/screenshot-xs.png)
+
+## Built With
+
+- HTML,
+- CSS
+
+## Live Demo
+
+[Live Demo Link](https://priceless-spence-8365c0.netlify.app/)
+
+### Prerequisites
+
+- Any kind of browser supporting CSS3 and HTML5
+- Bootstrap CSS, popper javascript and jquery libraries
+
+### Setup
+
+- Fork the repo to your remote repository.
+- Clone or download the repository to your local machine.
+
+### Install
+
+- Install node js and npm.
+- Run npm install to install stylint and other packages you need for development.
+
+## Author
+
+👤 **Mworekwa Ezekiel**
+
+- Github: [@githubhandle](https://github.com/vanheaven-ui)
+- Twitter: [@twitterhandle](https://twitter.com/MworekwaE)
+- Linkedin: [linkedin](https://www.linkedin.com/in/vanheaven/)
+- Email: [ezekiel](mailto:vanheaven6@gmail.com)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Checkout the [issues page](https://github.com/vanheaven-ui/capstone-html-css/issues)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- [Responsive design screenshots by Mathew Njuguna and Sam Achola on:] https://www.behance.net/gallery/25563385/PatashuleKE
+- [Bootstrap documentation on:] https://getbootstrap.com/docs/4.0/utilities/flex/
