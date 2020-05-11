@@ -8,7 +8,7 @@ body {
 * {
   box-sizing: border-box;
   border: none;
-   box-shadow: none;
+  box-shadow: none;
 }
 
 *:focus {
