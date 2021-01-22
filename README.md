@@ -1,7 +1,11 @@
-# capstone-html-css
-## Hardware Hub - Custom website built in HTML and CSS
 
-This project was completed under Microverse remote software development curriculum. The project requirement was to build a locally hosted custom website of three pages. The design for guidance was provided [here](https://www.behance.net/gallery/25563385/PatashuleKE) that was authored by Mathew Njunguna and Sam Achola on behance. The landing page for this local website is a search page which links to a results page and ultimately links to the details page. The build in this repository simulates an online directory of hardware stores.
+<div align="center">
+  
+# Hardware Hub 
+
+This project was completed under Microverse remote software development curriculum. The project requirement was to build a static website of three pages. The design for inspiration was provided [here](https://www.behance.net/gallery/25563385/PatashuleKE) that was authored by Mathew Njunguna and Sam Achola on behance. The landing page for this local website is a search page which links to a results page and ultimately links to the details page. The build in this repository simulates an online directory of hardware stores.
+
+</div>
 
 Here is a screenshot of the clone 
 
