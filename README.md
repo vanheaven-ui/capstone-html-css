@@ -7,7 +7,7 @@ This project was completed under Microverse remote software development curricul
 
 </div>
 
-Here is a screenshot of the clone 
+## Landing Page Screenshots
 
 ![Large size screenshot](./images/screenshot-lg.png)
 
