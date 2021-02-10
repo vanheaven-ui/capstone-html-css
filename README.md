@@ -62,5 +62,5 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [Responsive design screenshots by Mathew Njuguna and Sam Achola on:] https://www.behance.net/gallery/25563385/PatashuleKE
-- [Bootstrap documentation on:] https://getbootstrap.com/docs/4.0/utilities/flex/
+- [Responsive design screenshots by Mathew Njuguna and Sam Achola on:](https://www.behance.net/gallery/25563385/PatashuleKE)
+- [Bootstrap documentation](https://getbootstrap.com/docs/4.0/utilities/flex/)
